@@ -37,7 +37,7 @@
 
 .m-title {
   display: inline-block;
-  margin-top: 0;
+  margin: 0 0 16px 0;
   vertical-align: top;
 
   font-weight: 700;
@@ -51,7 +51,7 @@
 
   position: absolute;
   top: 46px;
-  left: 377px;
+  left: 387px;
   width: 12.42px;
   height: 12.42px;
   transform: translate(-50%, -50%);
@@ -63,4 +63,28 @@
 
 .m-close::before {
   content: url(../icons/close.png);
+}
+/*============================*/
+/*============================*/
+.notification {
+  position: relative;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #3E3E3E;
+
+  padding: 10px 0 10px 34px; /*34 только тексту он не позиц*/
+  margin-bottom: 12px;
+  border-radius: 4px;
+}
+/*------------------------------*/
+.inform {
+  background-color: #F0F1F3;
+}
+
+.inform::before {
+  content: url(../icons/information.png);
+  position: absolute;
+  top: 12px;
+  left: 10px;
 }
