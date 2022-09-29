@@ -65,8 +65,8 @@
   content: url(../icons/close.png);
 }
 
-/*============================*/
-/*============================*/
+/*==================================================*/
+/*==================================================*/
 .notification {
   position: relative;
   font-weight: 400;
@@ -80,13 +80,7 @@
   border-radius: 4px;
 }
 
-/*------------------------------*/
-.inform {
-  background-color: #F0F1F3;
-}
-
-.inform::before {
-  content: url(../icons/information.png);
+.notification::before {
   position: absolute;
   top: 12px;
   left: 10px;
@@ -98,6 +92,45 @@
   color: #3E3E3E;
   margin: 0 0 32px 0;
 }
+/*==================================================*/
+/*==================================================*/
+
+/*------------inform------------------*/
+.inform {
+  background-color: #F0F1F3;
+}
+
+.inform::before {
+  content: url(../icons/information.png);
+}
+/*----------------------------------*/
+/*---------------done---------------*/
+.done {
+  background-color: #E9F8EB;
+}
+
+.done::before {
+  content: url(../icons/done.png);
+}
+/*----------------------------------*/
+/*---------------warning---------------*/
+.warning {
+  background-color: #FFF8E0;
+}
+
+.warning::before {
+  content: url(../icons/warning.png);
+}
+/*----------------------------------*/
+/*---------------error---------------*/
+.error {
+  background-color: #FDEAE4;
+}
+
+.error::before {
+  content: url(../icons/error.png);
+}
+/*------------///////////----------------------*/
 
 
 /*-----------buttons--------------*/
