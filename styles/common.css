@@ -64,6 +64,7 @@
 .m-close::before {
   content: url(../icons/close.png);
 }
+
 /*============================*/
 /*============================*/
 .notification {
@@ -73,10 +74,12 @@
   line-height: 20px;
   color: #3E3E3E;
 
-  padding: 10px 0 10px 34px; /*34 только тексту он не позиц*/
+  padding: 10px 0 10px 34px;
+  /*34 только тексту он не позиц*/
   margin-bottom: 12px;
   border-radius: 4px;
 }
+
 /*------------------------------*/
 .inform {
   background-color: #F0F1F3;
@@ -88,3 +91,43 @@
   top: 12px;
   left: 10px;
 }
+
+.m-about {
+  font-size: 14px;
+  line-height: 22px;
+  color: #3E3E3E;
+  margin: 0 0 32px 0;
+}
+
+
+/*-----------buttons--------------*/
+.btn {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+}
+
+.btn-first {
+  background-color: #3E56AA;
+  color: white;
+  margin: 0 12px 0 0;
+}
+
+.btn-second {
+  background-color: rgba(0, 16, 61, 0.06);
+  color:  #2C2D2E;
+  border: 1px solid #F0F1F3;
+  margin: 0 115px 0 0;
+}
+
+.btn-third {
+  background-color: white;
+  color: #3E56AA;
+  padding: 0;
+  border: 0;
+}
+/*-----------/buttons--------------*/
